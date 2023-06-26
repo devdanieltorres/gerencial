@@ -1,0 +1,106 @@
+
+.negrito-texto {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Titillium Web';
+    font-weight: bolder;
+}
+
+.negrito-texto .titulo {
+    font-size: 24px;
+    color: #07558D;
+}
+
+.negrito-texto .titulo .numero {
+    font-size: 22px;
+    color: #54595F;
+    padding-bottom: 8px;
+}
+
+.negrito-texto .bloco-dados {
+    width: calc(100%/3);
+    float: left;
+    border-collapse: collapse;
+    color: #07558D;
+    text-align: center;
+}
+
+.negrito-texto .bloco-dados .titulo {
+    font-size: 18px;
+}
+
+.negrito-texto .bloco-dados .numero {
+    color: #54595F;
+    padding-bottom: 8px;
+}
+
+.negrito-texto .bloco-dados .porcentagemt {
+    font-size: 14px;
+    color: #56595F;
+    font-weight: bolder;
+}
+
+.negrito-texto .bloco-dados2 {
+    width: calc(100%/3);
+    float: left;
+    border-collapse: collapse;
+    color: #07558D;
+    text-align: center;
+}
+
+.negrito-texto .bloco-dados2 .titulo {
+    font-size: 14px;
+}
+
+.negrito-texto .bloco-dados2 .numero {
+    color: #54595F;
+    padding-bottom: 8px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* SEMAFORO COMPLETUDE */
+.semafaro-vermelho::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #ff0000;
+    margin-bottom: -1px;
+    margin-left: 5px;
+}
+
+.semafaro-amarelo::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #c1ab00;
+    margin-bottom: -1px;
+    margin-left: 5px;
+}
+
+.semafaro-verde::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #008000;
+    margin-bottom: -1px;
+    margin-left: 5px;
+}
+
+.porcentagem {
+    text-align: center;
+}
